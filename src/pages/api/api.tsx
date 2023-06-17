@@ -10,9 +10,8 @@ const Method = {
 
 export const api = {
   getIgImage: { url: () => `crawler`, method: Method.GET },
-
-  searchItems: {
-    url: () => `search`,
+  getPunchInData: {
+    url: () => `punch_in/disPlayOffWorkTime`,
     method: Method.GET,
   },
 };

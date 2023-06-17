@@ -1,1 +1,9 @@
-@import './components/index.scss'
+@import "./components/index.scss";
+@import "./pages/index.scss";
+@import "./utils/index.scss";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
